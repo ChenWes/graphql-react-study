@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
+
+import BookList from './components/BookList';
 
 class App extends Component {
   render() {
     return (
       <div id='main'>
         <h1>Reading List</h1>
+
+        <BookList />
       </div>
     );
   }
